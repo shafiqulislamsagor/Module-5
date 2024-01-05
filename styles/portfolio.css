@@ -240,3 +240,15 @@ hr {
     text-align: center;
     margin: 69px auto 113px;
 }
+/* footer related section */
+footer{
+    display: flex;
+    gap: 117px;
+    justify-content: space-around;
+    align-items: start;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+#footer-title{
+    text-align: left;
+}

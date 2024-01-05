@@ -58,6 +58,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 160px;
+    margin-bottom: 70px;
 }
 
 .nav-title {
@@ -81,15 +82,16 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+    font-size: 20px;
 }
 
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    padding-top: 10px;
+    background-position: bottom right,left bottom;
+    padding-top: 30px;
 }
 
 .banner {

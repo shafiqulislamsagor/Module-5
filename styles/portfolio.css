@@ -236,12 +236,14 @@ hr {
     line-height: 28px;
     padding-top: 20px;
 }
-.download{
+
+.download {
     text-align: center;
     margin: 69px auto 113px;
 }
+
 /* footer related section */
-footer{
+footer {
     display: flex;
     gap: 117px;
     justify-content: space-around;
@@ -249,6 +251,40 @@ footer{
     background: #FFF8F3;
     padding: 130px 230px;
 }
-#footer-title{
+
+#footer-title {
     text-align: left;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link>a>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+
+.form-contact .btn,
+textarea {
+    display: block;
+    width: 461px;
+    height: 64px;
+    margin-top: 24px;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #FFF;
+    padding-left: 30px;
+    border: 0;
+}
+
+.cmnt {
+    height: 180px;
+    padding: 18px 0 0 30px;
+}
+#short{
+    margin-top: 24px;
 }

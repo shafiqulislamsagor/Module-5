@@ -136,3 +136,7 @@ main{
     line-height: 30px;
     font-weight: 700;
 }
+#what-i-do-description{
+    width: 80%;
+    margin: 30px auto;
+}
